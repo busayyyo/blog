@@ -2,10 +2,11 @@
 title: Do you really notice the women in films?
 date: 2020-09-13T12:00:00+00:00
 hero: "/v1600064428/blog/jessica_pe-min_qz7kkc.jpg"
-excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel
-  apps in the U.S, along with Uber, Lyft.
+excerpt: do you see them more than the male supporting roles they were written to
+  be?
 timeToRead: 3
 authors: []
+draft: true
 
 ---
 I don’t know if it’s on account of age now, but I notice the women in films now more than ever. You know, those women characters in films and TV shows who somehow got relegated to a back story not as important as men’s or only seen in relation to men. I now see them as full characters of their own, badass women navigating a world conjured by men and refactoring into their own fashion.
