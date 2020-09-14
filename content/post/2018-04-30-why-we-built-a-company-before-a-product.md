@@ -1,157 +1,23 @@
 ---
-title: Why we built a company before building a platform
-date: 2018-04-30
-hero: /images/hero-6.jpg
-excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel apps in the U.S, along with Uber, Lyft.
+title: Do you really notice the women in films?
+date: 2020-09-13T12:00:00+00:00
+hero: "/v1600064428/blog/jessica_pe-min_qz7kkc.jpg"
+excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel
+  apps in the U.S, along with Uber, Lyft.
 timeToRead: 3
-authors:
-  - Thiago Costa
+authors: []
 
 ---
+I don’t know if it’s on account of age now, but I notice the women in films now more than ever. You know, those women characters in films and TV shows who somehow got relegated to a back story not as important as men’s or only seen in relation to men. I now see them as full characters of their own, badass women navigating a world conjured by men and refactoring into their own fashion.
 
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+When I think back now, I of Jessica Pearson in _Suits_, Wendy Rhoades in _Billions_. These are shows with premises built primarily around men and their desire for power. Men who wanted to own the world, but sprinkle a little female in there. These female characters were written as supporting roles to men; kind listening ears to their sobs or mothering figures to keep them in line. I bought these characters as they were made, that I never really noticed the arch of their development. I never saw them as extraordinary, because I was too blinded by what was going on in the men’s world. The men’s climb on the ladder seemed more important than the women for some reason. The women seemed like they were only there to make the men be better and somehow that just didn’t seem very interesting to me.
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+But lately, I’ve been going back to some of these TV shows and watching out for these women, revisiting how they navigated workplace and home betrayals, how they stuck to their intuition and walked the lonely roads others doubted, how they picked themselves back up when they stumbled. Somehow, these imperfect but resilient women characters are becoming a collage of role models for me. Women I could easily reach out for sound advice in a ‘watch how I do it’ kinda way, not ‘hear me say it’ kinda way, and this has been incredibly eye-opening.
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+I find myself asking ‘what would Jessica Pearson do?’, ‘how would Wendy Rhoades handle this?’ a lot more often now. Because it’s becoming apparent to me, that like it or not, these shows are a reflection of our society - the male-dominated society that we live in, in which power, the real kind of power is willed by men. To have access to this kind of power is to be able to create, and shift the dynamics of the way the world works. And as a woman, to have had any kind of real proximity to this kind of power, is to have broken so many hurdles, worked twice as hard, and screamed or muffled your voice for far too long to be heard.
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+The percentage of these women, these top players, is however incredibly meagre and a bit ironic since we are half the population. This means we live in a world where women don’t get to shape the solutions that deeply affect them. For younger generations who are determined to change that, it means we only see a little of these women up there to model ourselves after, since they are so scarce in our close environs. We have filled up these vacuums by celebrating fiercely the ones who do make it up there. We let their stories that come in the forms of books, podcasts, etc mentor us.
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+But you know where else to find this kind of mentorship? By looking closely at those female characters propped behind those male-dominated, ergo, power-themed films and tv shows. Often I’ve found these fictional characters’ journeys to be more honest than some non-fictional books. It’s less of bullshitty, if you will.
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
-
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
-
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
-
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
-
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
-
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-# This is a primary heading
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-## This is a secondary heading
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
----
-
-Hyphens
-
----
-
-Asterisks
-
----
-
-Underscores
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-   ⋅⋅\* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
+So next time you watch a movie, look closely, see that woman, truly see her and her journey, and be mentored.
