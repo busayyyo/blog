@@ -6,6 +6,7 @@ excerpt: Creating a new website for Hopper, one of the top 4 most downloaded tra
   apps in the U.S, along with Uber, Lyft.
 timeToRead: 3
 authors: []
+draft: true
 
 ---
 I don’t know if it’s on account of age now, but I notice the women in films now more than ever. You know, those women characters in films and TV shows who somehow got relegated to a back story not as important as men’s or only seen in relation to men. I now see them as full characters of their own, badass women navigating a world conjured by men and refactoring into their own fashion.
