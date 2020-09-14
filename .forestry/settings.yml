@@ -33,7 +33,7 @@ sections:
   new_doc_ext: yaml
 upload_dir: blog
 public_path: https://res.cloudinary.com/busayyyo/image/upload
-front_matter_path: https://res.cloudinary.com/busayyyo/image/upload
+front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
 build:
